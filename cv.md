@@ -1,16 +1,15 @@
 # Ivan Matsur
+**Senior QA Engineer**
 
 ___
 
-**Senior QA Engineer**
-
 ### Contact Information
-**Phone:** +375 29 ??? ?? ??
+**Phone:** +375 29 ??? ?? ??\
 **Email:** ivan.matsur@yandex.ru
 
 ### About me
->Already 34 years trying to stay positive and reach something worthwhile. Have some goals, but they are top secret stuff.
->Love to observe different processes, to think, to analyse and draw conclusions.
+>Already 34 years trying to stay positive and reach something worthwhile. Have some goals, but they are top secret stuff.\
+>Love to observe different processes, to think, to analyse and draw conclusions.\
 >Learning different technologies to expand horizons.
 
 ### Skills
