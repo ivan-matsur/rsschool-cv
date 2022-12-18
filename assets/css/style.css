@@ -1,4 +1,163 @@
 * {
 	margin: 0;
 	padding: 0;
+	//border: 1px dotted blue;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+	color: black;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+.header-container, .main, .footer-container {
+	width: 60%;
+	min-width: 480px;
+	margin: 0 auto;
+}
+
+.header, .footer {
+	background-color: rgba(70, 130, 180, 0.7);
+	min-width: 480px;
+}
+
+.header-container {
+	padding-top: 20px;
+}
+
+.photo {
+	width: 200px;
+	height: 200px;
+	background: url(../img/timon-background.png) no-repeat;
+	background-size: 100%;
+	border: 3px solid black;
+	border-radius: 50%;
+	float: left;
+	overflow: hidden;
+}
+
+.photo  img {
+	width: 100%;
+}
+
+.photo img:hover {
+	display: none;
+}
+
+.major {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-grow: 1;
+	padding: 20px;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.menu a {
+	margin-right: 40px;
+	height: 35px;
+	display: block;
+}
+
+.menu a, .footer a {
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+.menu a:hover, .footer a:hover{
+	color: white;
+	border-bottom: 2px solid white;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+	margin-bottom: 10px;
+}
+
+h1, .major p {
+	color: white;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+}
+
+.main {
+	padding: 40px 0 20px;
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+	grid-gap: 20px;
+}
+
+h2 {
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	padding-left: 40px;
+	color: rgba(70, 130, 180, 1);
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+}
+
+section > ul, main p, pre {
+	padding-left: 60px;
+}
+
+ul ul > li:not(:first-child) {
+	padding-left: 20px;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+ul ul > li:first-child {
+	margin-bottom: 0;
+}
+
+pre {
+	background-color: rgba(70, 130, 180, 0.1);
+}
+
+pre:nth-of-type(2n) {
+	background-color: rgba(70, 130, 180, 0.2);
+}
+
+main a:link, main a:visited {
+	color: rgba(70, 130, 180, 1);
+}
+
+main a:active {
+	color: black;
+}
+
+main a:hover {
+	border-bottom: 2px solid rgba(70, 130, 180, 1);
+}
+
+.footer {
+	padding: 20px 0;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;	
+}
+
+.rs-school-logo {
+	width: 100px;
 }
